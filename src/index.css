@@ -116,6 +116,13 @@
     background-color: #c06d77;
 }
 
+
+/* WHY HERITAGE */
+.home-about p{
+    text-align: justify;
+}
+
+
 /* CARD */
 .cards .main-card{
     border: 1px solid white !important;

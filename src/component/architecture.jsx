@@ -56,7 +56,7 @@ const searchedArch = filterArch.filter(arch =>
         
         <div className="d-flex flex-wrap justify-content-evenly gap-5 mb-5">
           {/* {aCards} */}
-          {filterArch.map((arch) => (
+          {searchedArch.map((arch) => (
             <CardArch
             key={arch.id}
               id={arch.id}

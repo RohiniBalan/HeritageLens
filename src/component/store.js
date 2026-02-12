@@ -3,7 +3,8 @@ import festivalReducer from "./festivalSlice";
 import architectureReducer from "./architetureSlice";
 import artReducer from "./artSlice";
 import handicraftSlice from "./handicraftSlice"
-import themeSlice from "./themeSlice"
+import themeSlice from "./themeSlice";
+import searchSlice fron " /searchSlice
 
 const store = configureStore({
     reducer:{
@@ -12,6 +13,7 @@ const store = configureStore({
         arts: artReducer,
         handicrafts: handicraftSlice,
         theme:themeSlice,
+        search: searchSlice
     }
 });
 

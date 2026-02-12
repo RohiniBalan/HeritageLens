@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 import Logo from "../assets/logo.png";
 import { FaInstagramSquare } from "react-icons/fa";
-
+import { FaFacebookF } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 
 function Footer(){

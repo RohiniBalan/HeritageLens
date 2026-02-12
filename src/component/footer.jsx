@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom"
+import Logo from "../assets/logo.png";
 
 function Footer(){
 
     return(
         <div className="footer d-flex justify-content-evenly py-3">
             <div>
-                <NavLink to="/"><img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/detailed-shot-of-ripples-at-sunset-free-image.jpeg?w=600&quality=80" alt="" height="60px" className='mx-2 me-3 rounded-pill logo' /></NavLink>
+                <NavLink to="/"><img src={Logo} alt="" height="60px" className='mx-2 me-3 rounded-pill logo' /></NavLink>
                 <h6>About Us</h6>
                 <p>naoepe</p>
             </div>

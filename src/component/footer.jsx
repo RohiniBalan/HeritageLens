@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom"
 import Logo from "../assets/logo.png";
+import { FaInstagramSquare } from "react-icons/fa";
+
+import { FaYoutube } from "react-icons/fa";
 
 function Footer(){
 
@@ -17,6 +20,12 @@ function Footer(){
                 <NavLink to="/festival" className="page-link">Festival</NavLink>
                 <NavLink to="/handicraft" className="page-link">Handicrafts</NavLink>
                 <NavLink to="/about" className="page-link">About</NavLink>
+            </div>
+            <div>
+            <h6>Quick Links</h6>
+                <FaInstagramSquare />
+                <FaFacebookF />
+                <FaYoutube />
             </div>
         </div>
     )

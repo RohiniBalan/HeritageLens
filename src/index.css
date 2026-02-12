@@ -123,6 +123,21 @@
 }
 
 
+/* CTA SECTION */
+.cta .btn{
+    border: 2px solid #c06d77;
+    background-color: #fffff0;
+    color: #c06d77;
+    font-weight: bold;
+    padding: 10px;
+}
+.cta .btn:hover{
+    background-color: #fffff0;
+    border: 2px solid #c06d77;
+    color: #c06d77;
+    padding: 10px;
+}
+
 /* CARD */
 .cards .main-card{
     border: 1px solid white !important;

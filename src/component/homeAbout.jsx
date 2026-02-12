@@ -2,8 +2,8 @@ import Heritage from "../assets/heritage.png";
 
 function HomeAbout(){
   return(
-    <div className="home-about">
-    <h1 className="text-center">Why HeritageLens ?</h1>
+    <div className="home-about my-5 text-center">
+    <h1>Why HeritageLens ?</h1>
       <div className="row align-items-center justify-content-evenly">
         <div className="col-lg-5 col-md-12">
         <img src={Heritage} width="450px"/>

@@ -10,6 +10,7 @@ import { IoIosSunny } from "react-icons/io";
 import { IoMdMoon } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
 import Logo from "../assets/logo.png";
+import { setSearchQuery } from "./searchSlice";
 
 function NavBarSection() {
   const dispatch = useDispatch();
@@ -50,14 +51,14 @@ function NavBarSection() {
               placeholder="Search"
               className="me-2"
               aria-label="Search"
+              onChange={(e) => dispatch(setSearchQuery(e.target.value))}
             />
             <Button variant="outline-success">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-    
+  
   );
 }
 

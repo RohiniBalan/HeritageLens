@@ -8,6 +8,8 @@ import Footer from "./footer";
 function Architecture() {
   const dispatch = useDispatch();
   const aData = useSelector((state) => state.architectures);
+  const searchQuery = useSelector(state => state.search.query);
+  
 
   // const aCards = aData.map(arch => (
   //     <CardSection
@@ -21,6 +23,11 @@ function Architecture() {
       ? aData
       : aData.filter((arch) => arch.period === category);
 
+  
+const searchedArch = filterArch.filter(arch =>
+  arch.name.toLowerCase().includes(searchQuery.toLowerCase())
+);
+  
   const darkMode = useSelector((state) => state.theme.darkMode);
   const appStyle = {
     backgroundColor: darkMode ? "black" : "#fffff0",

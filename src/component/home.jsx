@@ -5,7 +5,7 @@ import Highlight from "./highlight";
 import NavBarSection from "./navbar";
 import ArchitecturalTimeline from "./timeline";
 import HomeAbout from "./homeAbout";
-
+import Cta from "./cta":
 
 function Home() {
   return (
@@ -16,6 +16,7 @@ function Home() {
       <Highlight/>
       <ArchitecturalTimeline/>
       <HomeAbout/>
+      <Cta/>
       <Footer/>
     </>
   );

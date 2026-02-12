@@ -1,0 +1,220 @@
+/* NAVBAR */
+.nav-section{
+    background-color: #c06d77;
+}
+.nav-section .nav-page{
+    color: white;
+}
+.nav-btn{
+    background-color: #c06d77;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+.nav-btn:active{
+    color: black;
+}
+
+/* HOME*/
+/* CAROUSEL */
+.carousel-section img{
+    height: 550px;
+    opacity: 0.88;
+}
+
+/* CATEGORY */
+.category .category-card{
+    border: none;
+    border-radius: 20px;
+    background-color: #fffff0;
+}
+.category .category-card:hover{
+    transform: translate(0px, -10px);
+    transition: 2s ease;
+    background-color: #fcd8dc;
+
+}
+.category .card-img{
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.category .card-img:hover{
+    border: 8px double #c06d77;
+    padding: 8px;
+}
+.category .category-btn{
+    background-color: #c06d77;
+    border: 2px solid white;
+}
+.category .category-btn:hover{
+    border: 2px solid #c06d77;
+    background-color: #fffff0;
+    color: #c06d77;
+    font-weight: bold;
+}
+
+/* HIGHLIGHT */
+/* .highlight:hover{
+    border: 6px solid #c06d77;
+    padding: 10px;
+} */
+.highlight .arrow-icon{
+    font-size: 100px;   
+}
+.highlight h3{
+    color: #c06d77;
+}
+.highlight .btn{
+    background-color: #c06d77;
+    border: 2px solid white;
+}
+.highlight .btn:hover{
+    border: 2px solid #c06d77;
+    background-color: #fffff0;
+    color: #c06d77;
+    font-weight: bold;
+}
+
+/* TIMELINE */
+.timeline-heading p{
+    font-style: italic;
+}
+.timeline-card img{
+    width: 150px;
+    height: 100px;
+}
+.timeline-card .timelines{
+    display: inline-block
+}
+.timeline-card .btn{
+    border: 2px solid #c06d77;
+    background-color: #fffff0;
+    color: #c06d77;
+    font-weight: bold;
+    padding: 10px;
+}
+.timeline-card .btn:hover{
+    background-color: #fffff0;
+    border: 2px solid #c06d77;
+    color: #c06d77;
+    padding: 10px;
+}
+
+/* .timeline-card .btn:hover{
+    background-color: #c06d77;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+} */
+.timelines p{
+    font-style: italic;
+}
+.timelines{
+    background-color: #c06d77;
+}
+
+/* CARD */
+.cards .main-card{
+    border: 1px solid white !important;
+    box-shadow: 5px 5px 5px rgb(234, 233, 233);
+    text-align: center !important;
+    cursor: pointer;
+}
+.cards .main-card:hover{
+    transform: translateY(-10px);
+    background-color: #d48e96;
+    transition: 2s ease;
+}
+.main-card .card-btn{
+    background-color: #c06d77;
+    border: 2px solid white;
+}
+.main-card .card-btn:hover{
+    border: #c06d77;
+    background-color: #fffff0;
+    color: #c06d77;
+    font-weight: bold;
+}
+
+
+/* FESTIVAL PAGE */
+.slogan h6{
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.heading{
+    float: right;
+    width: 150px;
+    height: 30px;
+}
+
+
+/* ABOUT PAGE*/
+.about p{
+    text-align: justify;
+}
+.about .about-container{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px rgb(234, 233, 233);
+}
+.about-content h3{
+    color:#c06d77
+}
+.about-content ul{
+    line-height: 25px;
+}
+.about-img{
+    height: 550px;
+}
+
+/* DETAIL PAGE */
+.detail{
+    box-shadow: 6px 6px 5px rgb(234, 233, 233) ;
+}
+.detail img{
+    cursor: pointer;
+}
+.art-title {
+  font-size: 2.5rem;   
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 1rem;    
+  font-weight: 600;
+}
+
+.detail p,
+.detail li {
+  font-size: 1rem;     
+}
+
+.detail-fes img{
+    width: 600px;
+    height: 300px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #c06d77;
+}
+.footer .logo:hover{
+    transform: scale(1.04);
+}
+.footer .footer-page{
+    display: flex;
+    flex-direction: column;
+}
+.page-link{
+    text-decoration: none;
+    line-height: 1.6;
+}
+.page-link:hover{
+    color: #fffff0 !important;
+    text-decoration: underline;
+    transform: scale(1.04);
+}

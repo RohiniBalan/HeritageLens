@@ -8,10 +8,15 @@ import Footer from "./footer";
 function Art(){
     const dispatch = useDispatch()
     let artData = useSelector(state => state.arts);
+    const searchQuery = useSelector(state => state.search.query);
+    
 
     const [category, setCategory] = useState('all')
     const filterArt = category === 'all' ? artData : artData.filter(art => art.category === category)
-
+    const searchedArt = filterArt.filter(art =>
+  art.name.toLowerCase().includes(searchQuery.toLowerCase())
+);
+    
     const darkMode = useSelector((state)=> state.theme.darkMode)
     const appStyle = {
     backgroundColor: darkMode? 'black': '#fffff0',
@@ -43,7 +48,7 @@ function Art(){
         </h6> */}
         
         <div className="d-flex flex-wrap justify-content-evenly gap-5 mb-5">
-             {filterArt.map(art => (
+             {searchedArt.map(art => (
               <CardSection key={art.id} id={art.id} img={art.image} name={art.name} description={art.shortDescription} 
               isFavorite={art.isFavorite} handleLike={()=>dispatch(toggleLike(art.id))} />
              ))}

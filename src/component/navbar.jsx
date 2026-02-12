@@ -9,7 +9,7 @@ import { toggleTheme } from './themeSlice';
 import { IoIosSunny } from "react-icons/io";
 import { IoMdMoon } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
-
+import Logo from "./assest/logo.png";
 function NavBarSection() {
   const dispatch = useDispatch();
   const darkMode = useSelector((state) => state.theme.darkMode)
@@ -23,7 +23,7 @@ function NavBarSection() {
   return (
     <Navbar expand="lg" className="nav-section">
       <Container fluid>
-        <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/detailed-shot-of-ripples-at-sunset-free-image.jpeg?w=600&quality=80" alt="" height="60px" className='mx-2 me-3 rounded-pill' />
+        <img src={Logo} alt="" height="60px" className='mx-2 me-3 rounded-pill' />
         <Navbar.Brand href="#" style={{color:'white'}}>HeritageLens</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

@@ -8,9 +8,15 @@ import CardFestival from "./cardFestival";
 function Festival() {
   const dispatch = useDispatch()
   const fData = useSelector((state) => state.festivals);
+  const searchQuery = useSelector(state => state.search.query);
+  
   const [category, setCategory] = useState('all')
   const filterFes = category === 'all'? fData: fData.filter(fes=> fes.category === category)
-
+  
+const searchedFes = filterFes.filter(fes =>
+  fes.name.toLowerCase().includes(searchQuery.toLowerCase())
+);
+  
   const darkMode = useSelector((state) => state.theme.darkMode)
   const appStyle = {
     backgroundColor: darkMode? 'black': '#fffff0',
@@ -35,7 +41,7 @@ function Festival() {
           {/* <h6>"Celebrating the spirit, culture and unity"</h6> */}
           
           <div className="d-flex flex-wrap justify-content-evenly gap-5 mb-5">
-            {filterFes.map(fes=>(
+            {searchedFes.map(fes=>(
               <CardFestival key={fes.id} id={fes.id} img={fes.image} name={fes.name} description={fes.shortDescription} 
               isFavorite={fes.isFavorite} handleLike={()=> dispatch(toggleLike(fes.id))} />
             ))}

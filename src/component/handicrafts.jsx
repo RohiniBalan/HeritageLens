@@ -8,12 +8,19 @@ import CardHandi from "./cardHandi";
 function Handicraft() {
   const dispatch = useDispatch();
   const hData = useSelector((state) => state.handicrafts);
+  const searchQuery = useSelector(state => state.search.query);
+  
   const [category, setCategory] = useState("all");
 
   const filterHand =
     category === "all"
       ? hData
       : hData.filter((hand) => hand.category === category);
+
+  const searchedHand = filterHand.filter(hand =>
+  hand.name.toLowerCase().includes(searchQuery.toLowerCase())
+);
+  
 
   const darkMode = useSelector((state) => state.theme.darkMode);
   const appStyle = {
@@ -46,7 +53,7 @@ function Handicraft() {
         {/* <h6>"Traditions shaped by hands, skills, and heritage"</h6> */}
         
         <div className="d-flex flex-wrap justify-content-evenly gap-5 mb-5">
-          {filterHand.map((hand) => (
+          {searchedHand.map((hand) => (
             <CardHandi
             key={hand.id}
               id={hand.id}

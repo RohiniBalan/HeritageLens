@@ -4,6 +4,7 @@ import Footer from "./footer";
 import Highlight from "./highlight";
 import NavBarSection from "./navbar";
 import ArchitecturalTimeline from "./timeline";
+import HomeAbout from "./homeAbout";
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <Category/>
       <Highlight/>
       <ArchitecturalTimeline/>
+      <HomeAbout/>
       <Footer/>
     </>
   );

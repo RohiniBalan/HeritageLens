@@ -9,7 +9,8 @@ import { toggleTheme } from './themeSlice';
 import { IoIosSunny } from "react-icons/io";
 import { IoMdMoon } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
-import Logo from "./assest/logo.png";
+import Logo from "../assets/logo.png";
+
 function NavBarSection() {
   const dispatch = useDispatch();
   const darkMode = useSelector((state) => state.theme.darkMode)

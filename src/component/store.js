@@ -4,7 +4,7 @@ import architectureReducer from "./architetureSlice";
 import artReducer from "./artSlice";
 import handicraftSlice from "./handicraftSlice"
 import themeSlice from "./themeSlice";
-import searchSlice fron " /searchSlice
+import searchSlice from "./searchSlice";
 
 const store = configureStore({
     reducer:{

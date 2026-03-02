@@ -7,11 +7,11 @@ function About() {
   return (
     <div>
       <NavBarSection />
-      <div className="container text-center">
+      <div className="text-center">
         <Card>
           <Card.Img variant="top" src={AboutImg} className="about-img"/>
         </Card>
-        <div className="slogan about-content mt-3">
+        <div className="slogan about-content my-3 mb-5 container">
           <h1>About Us</h1>
           <h6>"Exploring India's Heritage Through a Cultural Lens"</h6>
           <div className="text-start about mt-5">

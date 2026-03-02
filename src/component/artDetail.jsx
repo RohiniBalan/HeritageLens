@@ -16,26 +16,28 @@ function ArtDetail() {
   return (
     <div>
       <NavBarSection />
-      <div className="container my-5 p-5 detail">
-        <div className="d-flex ">
-        <div className="me-3">
+      <div className="container py-5 px-5 detail">
+        <div className="row justify-content-evenly align-items-center">
+        <div className="me-3 col-lg-4">
         <img
           src={art.image}
-          alt={art.name} width="750px"
+          alt={art.name} 
           className="img-fluid rounded mb-4"
         />
         </div>
-        <div className="ms-4">
-        <h1 className="art-title">{art.name}</h1>
-        <p><b>Category</b> : {art.category}</p>
-        <p><b>State</b> : {art.state}</p>
-        <p><b>Period</b> : {art.period}</p>
-        <p><b>Type</b> : {art.type}</p>
-        <p>{art.origin && renderSection("Origin", art.origin)}</p>
-        <p><b>Description:</b> <br />{art.description}</p>
+        <div className="ms-4 col-lg-6">
+        <h1 className="sub-title pb-3">{art.name}</h1>
+        <p className="detail-text"><b className="h5">Category</b> : {art.category}</p>
+        <p className="detail-text"><b className="h5">State</b> : {art.state}</p>
+        <p className="detail-text"><b className="h5">Period</b> : {art.period}</p>
+        <p className="detail-text"><b className="h5">Type</b> : {art.type}</p>
+        <p className="detail-text"><b className="h5">Origin</b> : {art.origin}</p>
         </div>
         </div>
         
+        <div className="detail-down">
+          <h4 className="section-title">Description</h4>
+          <p className="detail-text">{art.description}</p>
         {art.keyFeatures && renderList("Key Features", art.keyFeatures)}
         {art.materialsUsed && renderList("Materials Used", art.materialsUsed)}
         {art.instruments && renderList("Instruments", art.instruments)}
@@ -46,6 +48,7 @@ function ArtDetail() {
           renderSection("Cultural Significance", art.culturalSignificance)}
         {art.modernPresence &&
           renderSection("Modern Presence", art.modernPresence)}
+        </div>
       </div>
       <Footer/>
     </div>
@@ -59,7 +62,7 @@ function renderSection(title, content) {
   return (
     <div className="my-4">
       <h4 className="section-title">{title}</h4>
-      <p>{content}</p>
+      <p className="detail-text">{content}</p>
     </div>
   );
 }
@@ -67,7 +70,7 @@ function renderSection(title, content) {
 function renderList(title, items) {
   return (
     <div className="my-4">
-      <h4>{title}</h4>
+      <h4  className="section-title">{title}</h4>
       <ul>
         {items.map((item, index) => (
           <li key={index}>{item}</li>

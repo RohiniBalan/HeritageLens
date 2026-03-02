@@ -6,7 +6,7 @@ function Highlight() {
   const navigate = useNavigate()
   return (
     <>
-      <h1 className="text-center my-5">Featured Highlights</h1>
+      <h1 className="text-center my-5 sub-title">Featured Highlights</h1>
       <div className="container my-5 highlight ">
         <div className="row align-items-center justify-content-evenly">
         <img

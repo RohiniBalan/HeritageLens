@@ -14,29 +14,34 @@ function HandicraftDetail(){
     return(
          <div>
       <NavBarSection />
-      <div className="container my-5 p-5 detail detail-fes">
-        <div className="d-flex ">
-        <div className="me-3">
+      <div className="container py-5 px-5 detail">
+        <div className="row justify-content-evenly align-items-center">
+        <div className="me-3 col-lg-4">
         <img
           src={handicraft.image}
           alt={handicraft.name}
           className="img-fluid rounded mb-4"
         />
         </div>
-        <div className="ms-4">
-        <h1 className="handicraft-title">{handicraft.name}</h1>
-        <p><b>Category</b> : {handicraft.category}</p>
-        <p><b>State</b> : {handicraft.state}</p>
-        <p><b>Description:</b> <br />{handicraft.shortDescription}</p>
+        <div className="ms-4 col-lg-6">
+        <h1 className="sub-title pb-3">{handicraft.name}</h1>
+        <p className="detail-text"><b className="h5">Category</b> : {handicraft.category}</p>
+        <p className="detail-text"><b className="h5">State</b> : {handicraft.state}</p>
+        <p className="detail-text"><b className="h5">Origin Type</b> : {handicraft.originType}</p>
+        <p className="detail-text"><b className="h5">Historical Period</b> : {handicraft.historicalPeriod}</p>
+        <p className="detail-text"><b className="h5">GI Status</b> : {handicraft.giStatus}</p>
+        <p className="detail-text"><b className="h5">Craft Type</b> : {handicraft.craftType}</p>
         </div>
         </div>
-        
+        <div className="detail-down">
+          <h4 className="section-title">Description</h4>
+          <p className="detail-text">{handicraft.description}</p>
         {handicraft.significance && renderSection("Significance", handicraft.significance)}
         {handicraft.materials && renderList("Material", handicraft.materials)}
         {handicraft.techniques && renderSection("Techniques", handicraft.techniques)}
         {handicraft.usage && renderSection("Usage", handicraft.usage)}
         {handicraft.attire && renderSection("Attire", handicraft.attire)}
-
+</div>
 
 
       </div>
@@ -51,7 +56,7 @@ function renderSection(title, content) {
   return (
     <div className="my-4">
       <h4 className="section-title">{title}</h4>
-      <p>{content}</p>
+      <p className="detail-text">{content}</p>
     </div>
   );
 }
@@ -59,7 +64,7 @@ function renderSection(title, content) {
 function renderList(title, items) {
   return (
     <div className="my-4">
-      <h4>{title}</h4>
+      <h4 className="section-title">{title}</h4>
       <ul>
         {items.map((item, index) => (
           <li key={index}>{item}</li>

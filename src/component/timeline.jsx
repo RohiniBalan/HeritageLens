@@ -4,10 +4,10 @@ function ArchitecturalTimeline(){
     return(
         <div className="my-5">
             <div className="text-center timeline-heading">
-        <h1>Architectural Journey of India</h1>
+        <h1 className="sub-title">Architectural Journey of India</h1>
         <p>"Tracing India's architectural evolution from ancient to modern times."</p>
             </div>
-        <div className="container timeline-card text-center">
+        <div className="container timeline-card text-center pt-3">
             <div className="border timelines px-4 py-2 mx-4">
             <h3 className="text-center">Ancient</h3>
             <h4 className="text-center">2500 BCE - 1200 CE</h4>
@@ -29,7 +29,7 @@ function ArchitecturalTimeline(){
             <img src="https://i.pinimg.com/1200x/a4/f3/c7/a4f3c773da35bc3b0cb0661eff8b781d.jpg" alt="" className="mb-3"/>
             <p>Colonial architecture, contemporary landmarks</p>
             </div>
-            <NavLink to="/architecture"><button className="btn my-3">View Full Architecture Timeline</button></NavLink>
+            <NavLink to="/architecture"><button className="btn mt-4">View Full Architecture Timeline</button></NavLink>
         </div>
         </div>
     )

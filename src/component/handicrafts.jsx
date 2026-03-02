@@ -24,7 +24,7 @@ function Handicraft() {
 
   const darkMode = useSelector((state) => state.theme.darkMode);
   const appStyle = {
-    backgroundColor: darkMode ? "black" : "#fffff0",
+    backgroundColor: darkMode ? "rgb(58, 57, 57)" : "#fffff0",
     color: darkMode ? "white" : "black",
     transition: "all 0.3s ease",
   };
@@ -49,8 +49,7 @@ function Handicraft() {
             <option value="Folk & Tribal Crafts">Tribal</option>
           </select>
         </div>
-        <h1 className="mb-5">HandiCrafts of India</h1>
-        {/* <h6>"Traditions shaped by hands, skills, and heritage"</h6> */}
+        <h1 className="mb-5 main-title">HandiCrafts of India</h1>
         
         <div className="d-flex flex-wrap justify-content-evenly gap-5 mb-5">
           {searchedHand.map((hand) => (

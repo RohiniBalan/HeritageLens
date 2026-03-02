@@ -19,7 +19,7 @@ function Art(){
     
     const darkMode = useSelector((state)=> state.theme.darkMode)
     const appStyle = {
-    backgroundColor: darkMode? 'black': '#fffff0',
+    backgroundColor: darkMode? 'rgb(58, 57, 57)': '#fffff0',
     color: darkMode? 'white': 'black',
     transition:'all 0.3s ease'
   };
@@ -42,10 +42,7 @@ function Art(){
             <option value="Textile Art">Textile Art</option>
           </select>
         </div>
-        <h1 className="mb-5">Art & Culture of India</h1>
-        {/* <h6>
-          "Expressions of tradition, creativity, and timeless stories"
-        </h6> */}
+        <h1 className="mb-5 main-title">Art & Culture of India</h1>
         
         <div className="d-flex flex-wrap justify-content-evenly gap-5 mb-5">
              {searchedArt.map(art => (

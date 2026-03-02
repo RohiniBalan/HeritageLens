@@ -19,7 +19,7 @@ const searchedFes = filterFes.filter(fes =>
   
   const darkMode = useSelector((state) => state.theme.darkMode)
   const appStyle = {
-    backgroundColor: darkMode? 'black': '#fffff0',
+    backgroundColor: darkMode? 'rgb(58, 57, 57)': '#fffff0',
     color: darkMode? 'white': 'black',
     transition:'all 0.3s ease'
   };
@@ -37,8 +37,7 @@ const searchedFes = filterFes.filter(fes =>
               <option value="Fair">Fair</option>
             </select>
           </div>
-          <h1 className="mb-5">Festivals of India</h1>
-          {/* <h6>"Celebrating the spirit, culture and unity"</h6> */}
+          <h1 className="mb-5 main-title">Festivals of India</h1>
           
           <div className="d-flex flex-wrap justify-content-evenly gap-5 mb-5">
             {searchedFes.map(fes=>(

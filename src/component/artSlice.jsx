@@ -15,9 +15,7 @@ const ArtSlice = createSlice({
 
   shortDescription: "One of the oldest classical dance forms of India, known for its expressive movements.",
 
-  description:
-    "Bharatanatyam is a classical Indian dance form originating from Tamil Nadu, known for its fixed upper torso, bent legs, and expressive gestures.",
-
+  description:"Bharatanatyam is one of the oldest classical dance forms of India, originating in Tamil Nadu. It is known for its fixed upper torso, intricate footwork, expressive hand gestures (mudras), and storytelling through facial expressions, often depicting themes from Hindu mythology and devotional tales.",
   origin: "Developed in ancient temples of Tamil Nadu",
 
   keyFeatures: [
@@ -48,9 +46,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Tribal painting using simple geometric shapes to depict daily life and nature.",
 
-  description:
-    "Warli Painting is a traditional tribal art form practiced by the Warli tribe of Maharashtra. It uses simple geometric shapes like circles, triangles, and lines to depict daily life, nature, farming, rituals, and social events.",
-
+  description:"Warli Painting is a traditional tribal art form of the Warli community in Maharashtra. It is characterized by simple geometric shapes, dots, and lines to depict everyday life, nature, and rituals, often painted on mud walls using white pigment on a red or ochre background.",
   origin:
     "Practiced by the Warli tribal communities of Maharashtra",
 
@@ -90,9 +86,8 @@ const ArtSlice = createSlice({
   image: "https://www.solitarytraveller.com/wp-content/uploads/2020/06/chhau_dance_banner-min.jpg",
   shortDescription:
     "Martial folk dance known for powerful movements, and reflecting strength.",
-  description:
-    "Chhau Dance is a semi-classical folk dance form originating from eastern India. It combines martial arts, acrobatics, and storytelling, often performed using elaborate masks to depict mythological and heroic characters.",
-  origin:
+  description:"Chhau Dance is a traditional martial and folk dance from Eastern India, mainly Odisha, West Bengal, and Jharkhand. It combines elements of dance, drama, and combat, often performed during festivals, with performers wearing elaborate masks to depict mythological stories and heroic tales.",
+    origin:
     "Developed in the tribal regions of Odisha and Jharkhand",
   keyFeatures: [
     "Vigorous movements inspired by martial arts",
@@ -129,9 +124,7 @@ const ArtSlice = createSlice({
 
   shortDescription: "Classical dance known for fast footwork, spins, showcasing rhythm and precision.",
 
-  description:
-    "Kathak evolved from storytelling traditions and is famous for intricate footwork and graceful spins.",
-
+  description:"Kathak is a classical dance form from North India, known for its intricate footwork, spins, expressive gestures, and storytelling. Traditionally, it narrates mythological tales through rhythm, facial expressions, and graceful movements, often performed to classical Hindustani music.",
   origin: "Northern India temple storytelling traditions",
 
   keyFeatures: [
@@ -156,18 +149,12 @@ const ArtSlice = createSlice({
   type: "Classical",
   state: "North India",
   period: "Ancient – Medieval Era",
-
   image: "https://media.ipassio.com/media/ckeditor_image/2025/06/25/indian-classical-music.jpg",
-
   shortDescription:
     "Improvisational classical music tradition of North India, known for its expressive melodies.",
-
-  description:
-    "Hindustani Classical Music is a major classical music tradition of India that evolved in North India. It emphasizes improvisation and emotional expression through ragas and talas, influenced by ancient Vedic chants and later Persian musical elements.",
-
+  description:"Hindustani Classical Music is the classical music tradition of North India, known for its improvisational style, ragas (melodic frameworks), and talas (rhythmic patterns). It emphasizes vocal and instrumental performances, devotional compositions, and expressive improvisation, reflecting centuries of cultural and musical evolution.",
   origin:
     "Developed from ancient Vedic traditions and medieval court music",
-
   keyFeatures: [
     "Raga-based improvisation",
     "Flexible and expressive style",
@@ -200,9 +187,7 @@ const ArtSlice = createSlice({
 
   shortDescription: "A dance-drama with music, dialogue, costumes, blending stroytelling and performance.",
 
-  description:
-    "Yakshagana is a traditional theatre form combining dance, music, and dialogue, based on epics.",
-
+  description:"Yakshagana is a traditional folk theatre form from Karnataka, combining dance, music, dialogue, and elaborate costumes. Performances often depict stories from Hindu epics like the Ramayana and Mahabharata, and are known for vibrant makeup, energetic movements, and rhythmic storytelling.",
   origin: "Temple theatre traditions of Karnataka",
 
   keyFeatures: [
@@ -232,9 +217,7 @@ const ArtSlice = createSlice({
 
   shortDescription: "A classical dance-drama known for elaborate costumes and makeup.",
 
-  description:
-    "Kathakali is a classical dance-drama from Kerala that combines dance, music, acting, and elaborate facial makeup to narrate stories from Indian epics.",
-
+  description:"Kathakali is a classical dance-drama from Kerala, known for its elaborate costumes, vibrant face makeup, and expressive gestures. It combines dance, acting, and music to narrate stories from Hindu epics like the Ramayana and Mahabharata, emphasizing emotion and dramatic storytelling.",
   origin: "Developed in Kerala from ancient temple and folk traditions",
 
   keyFeatures: [
@@ -262,9 +245,8 @@ const ArtSlice = createSlice({
   period: "Ancient",
   image: "https://i.pinimg.com/1200x/4b/7f/78/4b7f78c92514e33ba92aceb559c6e818.jpg",
   shortDescription: "A soft, graceful classical dance rooted in devotion and expressive storytelling.",
-  description:
-    "Manipuri is a classical dance form from Manipur known for its gentle movements, flowing costumes, and spiritual themes. Unlike other classical dances, it avoids sharp movements and strong facial expressions, focusing instead on elegance and devotion.",
-
+  description:"Manipuri Dance is a classical dance form from Manipur, characterized by graceful, fluid movements and devotional themes. Often performed to narrate stories of Lord Krishna and Radha, it emphasizes gentle expressions, circular movements, and traditional costumes, reflecting the cultural heritage of Northeast India.",
+   
   origin:
     "Developed in Manipur and associated with Vaishnavism and temple traditions",
 
@@ -295,8 +277,8 @@ const ArtSlice = createSlice({
   shortDescription:
     "A classical dance from Kerala known for soft movements and feminine expression.",
   description:
-    "Mohiniyattam is a classical dance form from Kerala characterized by gentle, flowing movements and subtle facial expressions. It draws inspiration from the mythological figure Mohini, the female avatar of Lord Vishnu, and emphasizes elegance, emotion, and lyrical grace.",
-  origin:
+    "Mohiniyattam is a classical dance form from Kerala, known for its graceful, feminine movements and subtle expressions. It typically depicts themes of love and devotion, especially stories of Lord Vishnu, and is performed in flowing white and gold costumes with delicate gestures and gentle footwork.",
+     origin:
     "Originated in Kerala and developed under temple and royal patronage",
 
   keyFeatures: [
@@ -327,8 +309,7 @@ const ArtSlice = createSlice({
     "A traditional scroll painting depicting mythological stories through detailed illustrations.",
 
   description:
-    "Pattachitra is a traditional scroll painting from Odisha, known for its intricate details and mythological narratives. The art form mainly depicts stories from Lord Jagannath, Ramayana, and Mahabharata using natural colors and bold outlines.",
-
+    "Pattachitra is a traditional Indian painting style from Odisha, characterized by intricate details, mythological themes, and vibrant colors. Painted on cloth (patta) or dried palm leaves, it often depicts stories of Hindu deities like Jagannath, Krishna, and Vishnu, showcasing exquisite craftsmanship and cultural heritage.",
   origin:
     "Developed around the Jagannath Temple region of Odisha",
 
@@ -371,8 +352,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Classical dance of Assam rooted in Vaishnavite traditions and monastery culture.",
   description:
-    "Sattriya is one of the eight recognized classical dance forms of India, originating in Assam. It was introduced by the Vaishnavite saint Srimanta Sankardeva as a medium to spread religious teachings through dance-dramas performed in monasteries called Satras.",
-
+    "Sattriya Dance is a classical dance form from Assam, originally developed in the 15th–16th century by the saint-scholar Srimanta Sankardev as part of the Vaishnavite monasteries (Sattras). It combines expressive storytelling, graceful movements, and devotional themes, primarily depicting stories of Lord Krishna.",
   origin:
     "Developed in the Vaishnavite monasteries (Satras) of Assam",
   keyFeatures: [
@@ -404,8 +384,7 @@ const ArtSlice = createSlice({
     "A structured and devotional classical music of South India, known for its discipline.",
 
   description:
-    "Carnatic Classical Music is the traditional music system of South India, known for its highly structured compositions and devotional themes. It places strong emphasis on kritis composed by saint composers like Tyagaraja, Muthuswami Dikshitar, and Syama Sastri.",
-
+    "Carnatic Classical Music is the classical music tradition of South India, known for its structured compositions, intricate rhythmic patterns (tala), and devotional themes. It emphasizes vocal music supported by instruments like the mridangam, veena, and flute, and often features improvisation within the framework of ragas.",
   origin:
     "Rooted in temple traditions and Bhakti movement of South India",
 
@@ -443,8 +422,7 @@ const ArtSlice = createSlice({
     "A mystic folk music tradition expressing spiritual philosophy and inner devotion.",
 
   description:
-    "Baul Music is a mystical folk tradition of Bengal practiced by wandering minstrels called Bauls. Their songs blend spiritual beliefs from Hinduism, Buddhism, and Sufism, focusing on inner realization and love for humanity.",
-
+    "Baul Music is a traditional folk music form from Bengal, performed by Bauls, a group of wandering minstrels. It emphasizes spiritual themes, love, and devotion, often accompanied by simple instruments like the ektara, dotara, and duggi, and is known for its soulful melodies and philosophical lyrics.",
   origin:
     "Evolved among rural communities of Bengal",
 
@@ -478,8 +456,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "A traditional scroll painting narrating folk epics and legends.",
   description:
-    "Phad Painting is a traditional scroll painting from Rajasthan, used as a mobile temple by folk storytellers. It narrates heroic tales of local deities like Pabuji and Devnarayan through vibrant colors and sequential storytelling.",
-
+    "Phad Painting is a traditional scroll painting from Rajasthan, depicting stories of local deities and folk heroes like Pabuji and Devnarayan. Created on long cloth scrolls using vibrant natural colors, it serves both as a visual storytelling medium and a ritualistic art form performed during festivals and processions.",
   origin:
     "Developed in the Bhilwara region of Rajasthan",
 
@@ -525,8 +502,7 @@ const ArtSlice = createSlice({
     "Festive folk music celebrating Assamese culture, joy and traditional life.",
 
   description:
-    "Bihu Music is a lively folk music tradition of Assam performed during the Bihu festival. It celebrates nature, love, and agricultural life, accompanied by energetic dance movements and traditional instruments.",
-
+    "Bihu Music is the traditional folk music of Assam associated with the Bihu festival. It features rhythmic songs and dances celebrating the agricultural cycle, love, and community life, often accompanied by instruments like the dhol, pepa (hornpipe), and gogona, creating an energetic and festive atmosphere.",
   origin:
     "Associated with agrarian communities of Assam",
 
@@ -563,9 +539,8 @@ const ArtSlice = createSlice({
     "Energetic folk music blending song and dance, performed during celebrations.",
 
   description:
-    "Lavani is a popular folk music and dance form of Maharashtra known for its powerful rhythm and expressive performance. Traditionally performed by women, it combines music, dance, and dramatic storytelling.",
-
-  origin:
+    "Lavani is a traditional folk dance and music form from Maharashtra, known for its powerful rhythm, expressive gestures, and vibrant costumes. Performed to the beats of the dholki, Lavani often depicts themes of love, social issues, and storytelling, and is a prominent part of Maharashtrian cultural heritage.",
+   origin:
     "Developed during the Maratha period",
 
   keyFeatures: [
@@ -596,7 +571,7 @@ const ArtSlice = createSlice({
   image: "https://i.pinimg.com/736x/9f/6c/4f/9f6c4fdf215e03abefcabe5432edc9c4.jpg",
   shortDescription: "Classical dance famous for sculpturesque poses and fluid movements.",
   description:
-    "Odissi is one of the oldest classical dance forms of India, originating from Odisha. It is known for its graceful tribhangi posture, lyrical movements, and expressive storytelling inspired by temple sculptures and devotional themes.",
+    "Odissi Dance is a classical dance form from Odisha, characterized by graceful, fluid movements, intricate gestures (mudras), and expressive storytelling. It often depicts stories of Lord Jagannath, Krishna, and other Hindu deities, combining devotion, rhythm, and lyrical elegance.",
   origin: "Odisha temples and ancient Natya Shastra traditions",
   keyFeatures: [
     "Tribhangi posture (three-body bends)",
@@ -626,8 +601,7 @@ const ArtSlice = createSlice({
   shortDescription: "A folk painting style with geometric patterns and nature-inspired themes.",
 
   description:
-    "Madhubani painting is a traditional art form from Bihar using natural dyes and depicting mythology and daily life.",
-
+    "Madhubani Painting is a traditional Indian art form from Bihar, characterized by vibrant colors, intricate patterns, and symbolic motifs. Created using natural dyes on walls, cloth, or paper, it often depicts themes from Hindu mythology, nature, and daily life, reflecting cultural traditions and storytelling.",
   origin: "Mithila region of Bihar",
 
   keyFeatures: [
@@ -656,8 +630,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Ancient Sanskrit theatre performed in temple spaces of Kerala.",
   description:
-    "Koodiyattam is one of the oldest surviving theatre traditions in the world, originating in Kerala. Performed in temple theatres called Koothambalams, it combines Sanskrit drama with elaborate gestures, facial expressions, and symbolic storytelling.",
-
+    "Koodiyattam is a traditional Sanskrit theatre form from Kerala, recognized as one of the oldest living theatrical traditions in the world. It combines elaborate gestures, facial expressions, and stylized acting to narrate stories from Hindu epics like the Ramayana and Mahabharata, often performed in temple theatres over several days.",
   origin:
     "Developed in Kerala temples and Koothambalams",
 
@@ -700,8 +673,7 @@ const ArtSlice = createSlice({
     "Hand-painted and block-printed textile art tradition, known for its craftsmanship.",
 
   description:
-    "Kalamkari is a traditional art form where stories from epics like the Ramayana and Mahabharata are hand-painted or block-printed on fabric using natural dyes. The term 'Kalamkari' comes from 'kalam' (pen) and 'kari' (craft).",
-
+    "Kalamkari is a traditional hand-painted or block-printed textile art from Andhra Pradesh and Telangana. It uses natural dyes to depict mythological stories, epics, and floral motifs on fabric, showcasing intricate designs and vibrant colors that reflect India’s rich craft heritage.",
   origin:
     "Developed in temple towns of Andhra Pradesh",
 
@@ -740,7 +712,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Tribal wall art portraying daily life and nature, through symbolic and earthy design.",
   description:
-    "Santhal Art is a traditional tribal painting style practiced by the Santhal tribe. It reflects everyday life, rituals, farming activities, animals, and nature through simple figures and earthy colors, often painted on walls during festivals.",
+    "Santhal Art is a traditional tribal art form of the Santhal community in Jharkhand. It features vibrant, colorful depictions of daily life, nature, animals, and rituals, often painted on walls or paper, reflecting the tribe’s cultural stories, beliefs, and close connection with nature.",
   origin:
     "Santhal tribal communities of eastern India",
   keyFeatures: [
@@ -779,8 +751,7 @@ const ArtSlice = createSlice({
   image: "https://www.insightsonindia.com/wp-content/uploads/2021/09/Kuchipudi-dance.jpg",
   shortDescription: "Graceful classical dance known for expressive storytelling and refined movements.",
   description:
-    "Kuchipudi is a classical Indian dance form from Andhra Pradesh that blends graceful movements, expressive storytelling, and rhythmic footwork, often based on mythological themes.",
-
+    "Kuchipudi Dance is a classical dance form from Andhra Pradesh, known for its graceful movements, rhythmic footwork, and expressive storytelling. Traditionally performed as a dance-drama, it depicts stories from Hindu epics like the Ramayana and Mahabharata, combining devotion, rhythm, and theatrical elements.",
   origin: "Originated in the village of Kuchipudi, Andhra Pradesh",
 
   keyFeatures: [
@@ -809,7 +780,7 @@ const ArtSlice = createSlice({
   image: "https://www.ikolam.com/sites/default/files/pageimage/18-pongal-kolam_0.jpg",
   shortDescription: "A Decorative floor art using colors and patterns, created during festivals.",
   description:
-    "Rangoli or Kolam is a traditional floor art made using rice flour, symbolizing positivity and welcome.",
+    "Rangoli / Kolam is a traditional Indian art form of creating decorative patterns on floors, usually at entrances, using colored powders, rice flour, or flower petals. It is practiced across India, especially during festivals, and symbolizes prosperity, welcome, and auspiciousness.", 
   origin: "Household traditions across India",
   keyFeatures: [
     "Geometric designs",
@@ -836,8 +807,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Detailed paintings depicting royal life and mythological scenes.",
   description:
-    "Miniature Painting is a traditional art form that flourished in royal courts of Rajasthan and the Mughal Empire. These paintings are characterized by intricate detailing, fine brushwork, and rich colors depicting court life, battles, and mythology.",
-
+    "Miniature Painting is a detailed and intricate painting style that flourished in India from the medieval period. Often created on paper, cloth, or palm leaves, it depicts court scenes, religious themes, and epic tales using vibrant colors and fine brushwork, reflecting the rich artistic heritage of various regions like Mughal, Rajput, and Pahari schools.",
   origin:
     "Developed in Rajput and Mughal royal courts",
 
@@ -881,8 +851,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Traditional tribal art known for metal, wood, and natural materials.",
   description:
-    "Bastar Tribal Art is practiced by indigenous tribes of Chhattisgarh and is famous for its use of metal, wood, terracotta, and natural resources. The art reflects tribal beliefs, daily life, folklore, and deep connections with nature.",
-
+    "Bastar Tribal Art is a traditional art form of the Bastar region in Chhattisgarh, created by local tribal communities. It includes metalwork, wood carvings, terracotta, and bell metal crafts, often depicting tribal life, animals, and deities, reflecting the community’s cultural heritage and artisanal skills.",
   origin:
     "Practiced by tribal communities of the Bastar region in Chhattisgarh",
 
@@ -927,8 +896,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Vibrant folk music reflecting desert life and royal heritage, rich in tradition.",
   description:
-    "Rajasthani Folk Music is deeply rooted in the desert culture of Rajasthan. Performed by communities like Manganiyars and Langas, the music narrates tales of bravery, love, devotion, and royal history using traditional instruments.",
-
+    "Rajasthani Folk Music is the traditional music of Rajasthan, known for its soulful melodies, rhythmic beats, and vibrant instruments like the dholak, sarangi, and algoza. It often narrates tales of valor, love, devotion, and daily life, and is performed during festivals, fairs, and cultural gatherings.",
   origin:
     "Developed among desert communities of Rajasthan",
 
@@ -973,8 +941,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Classical painting famous for gold foil and vibrant colors, reflecting rich artistic tradition.",
   description:
-    "Tanjore Painting is a classical South Indian art form that originated in Thanjavur, Tamil Nadu. It is known for its rich colors, surface ornamentation, and the use of gold foil to depict Hindu deities and religious themes.",
-
+    "Tanjore Painting is a classical South Indian painting style from Tamil Nadu, known for its rich colors, surface richness, and use of gold foil. Typically depicting Hindu deities, these paintings are characterized by intricate details, ornamental designs, and a sense of divine grandeur.",
   origin:
     "Developed in Thanjavur during the Nayaka and Maratha rule",
 
@@ -1017,8 +984,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Vibrant tribal art using dots, lines, and nature-inspired patterns.",
   description:
-    "Gond Art is a traditional tribal art form practiced by the Gond tribes of Madhya Pradesh. The paintings are known for their vibrant colors, intricate dot and line patterns, and themes inspired by nature, mythology, and tribal folklore.",
-
+    "Gond Art is a traditional tribal art form of the Gond community in Madhya Pradesh. It features vibrant colors, intricate patterns, and depictions of nature, animals, and folklore, often painted on walls, paper, or cloth, reflecting the community’s cultural stories and close connection with the natural world.",
   origin:
     "Practiced by Gond tribal communities of Central India",
 
@@ -1062,8 +1028,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Popular folk theatre known for lively music and dramatic storytelling.",
   description:
-    "Nautanki is a traditional folk theatre form from North India, especially Uttar Pradesh. It combines music, dialogue, and dramatic performances to narrate tales of romance, bravery, and social themes, performed in open spaces.",
-
+    "Nautanki is a traditional folk theatre form from North India, combining music, dance, and drama. It is known for lively storytelling, humorous dialogues, and melodious songs, often performed in villages to narrate folk tales, historical events, and social themes.",
   origin:
     "Developed in rural regions of Uttar Pradesh",
 
@@ -1104,8 +1069,7 @@ const ArtSlice = createSlice({
     "Open-air folk theatre with music, dialogue, and dramatic narration.",
 
   description:
-    "Jatra is a traditional folk theatre form of Bengal performed in open-air arenas. Known for its loud dialogue, melodramatic acting, and musical narration, Jatra plays often depict mythological stories and social themes.",
-
+    "Jatra is a traditional folk theatre form from Odisha, characterized by musical drama, vibrant costumes, and expressive storytelling. Performances often depict mythological stories, historical events, and social themes, and are staged during festivals and community gatherings.",
   origin:
     "Developed in rural Bengal and temple processions",
 
@@ -1145,8 +1109,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Traditional string puppetry depicting folk tales and legends.",
   description:
-    "Kathputli is a traditional string puppetry art form of Rajasthan. Performed by puppeteers known as Bhat community, it narrates folk tales, heroic legends, and moral stories using colorful wooden puppets, music, and rhythmic dialogue.",
-
+    "Puppetry is a traditional performing art in India, where puppets are manipulated to narrate stories from mythology, folklore, and social themes. Various regional styles exist, including string puppets, shadow puppets, and rod puppets, combining music, dialogue, and visual artistry to entertain and educate audiences.",
   origin:
     "Developed among rural communities of Rajasthan",
 
@@ -1190,8 +1153,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Narrative storytelling blending music, philosophy, and devotion.",
   description:
-    "Harikatha is a traditional storytelling art form from South India that combines narration, music, poetry, and philosophy. Performers narrate stories from Hindu epics while engaging audiences through songs, humor, and moral teachings.",
-
+    "Folk Storytelling is an ancient Indian tradition of narrating tales orally, often passed down through generations. It includes myths, legends, epics, and moral stories, performed with expressive gestures, music, and songs, serving both entertainment and cultural education in communities.",
   origin:
     "Developed in temple and cultural traditions of South India",
 
@@ -1234,8 +1196,7 @@ const ArtSlice = createSlice({
     "A Devotional folk music of Navratri festival celebrations, performed with devotion.",
 
   description:
-    "Garba Music is a traditional folk music of Gujarat performed during Navratri in devotion to Goddess Durga. The rhythmic songs accompany circular dance movements symbolizing the cycle of life.",
-
+    "Garba Music is the traditional folk music of Gujarat associated with the Garba dance, performed during the Navaratri festival. It features rhythmic beats, clapping, and devotional songs praising Goddess Durga, creating a lively and energetic atmosphere for community celebration and dance.",
   origin:
     "Rooted in ancient Shakti worship traditions",
 
@@ -1271,8 +1232,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Dot-based tribal paintings inspired by nature, depicting animals, plants and daily life.",
   description:
-    "Bhil Painting is a vibrant tribal art form known for its dot patterns and bright colors. Created by the Bhil tribe, these paintings often represent animals, trees, deities, and natural elements, symbolizing harmony between humans and nature.",
-
+    "Bhil Painting is a traditional tribal art form of the Bhil community in Madhya Pradesh. It is characterized by vibrant colors, intricate patterns, and motifs inspired by nature, animals, and daily life, often painted on walls, paper, or cloth, reflecting the community’s cultural stories and rituals.",
   origin:
     "Bhil tribal regions of central India",
 
@@ -1315,8 +1275,7 @@ const ArtSlice = createSlice({
   shortDescription:
     "Ritual wall paintings created by the Saura tribe, reflecting spiritual beliefs and traditions.",
   description:
-    "Saura Painting is a ritualistic tribal art form practiced by the Saura tribe of Odisha. These geometric wall paintings are traditionally created during festivals and rituals to honor deities and ancestral spirits.",
-
+    "Saura Painting is a traditional tribal painting of the Saura community in Odisha. Characterized by bold lines, geometric patterns, and symbolic motifs, it often depicts religious rituals, nature, and daily life, usually painted on walls or murals, reflecting the tribe’s cultural beliefs and heritage.",
   origin:
     "Saura tribal regions of Odisha",
 
@@ -1361,8 +1320,7 @@ const ArtSlice = createSlice({
   shortDescription: "Distinctive tribal embroidery in red and black, known for this bold pattern and symbolism.",
 
   description:
-    "Toda embroidery is practiced by the Toda tribe using geometric patterns inspired by nature.",
-
+    "Toda Embroidery is a traditional textile craft of the Toda community in the Nilgiri Hills of Tamil Nadu. It is known for its distinctive red and black geometric patterns on white fabric, typically used in shawls and garments, reflecting the tribe’s cultural identity and artisanal skills.",
   origin: "Nilgiri Hills, Tamil Nadu",
 
   keyFeatures: [

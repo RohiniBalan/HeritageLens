@@ -9,14 +9,15 @@ function CardSection({id, img, name, description, isFavorite, handleLike }) {
   <>
     <div className="cards">
       <Card
-        style={{ width: "18rem", borderRadius: "10px"}}
+        style={{ width: "18rem", borderRadius: "15px"}}
         className="main-card"
       >
         <Card.Img
           variant="top"
           src={img}
           height="200px"
-          style={{ width: "17rem", borderRadius: "10px", marginLeft:'8px', marginTop:'5px' }}
+          className="card-img "
+          style={{ width: "16rem", borderRadius: "15px"}}
         />
         <Card.Body>
           <Card.Title style={{ textAlign: "center", fontSize: "22px" }}>
@@ -25,14 +26,7 @@ function CardSection({id, img, name, description, isFavorite, handleLike }) {
           <Card.Text style={{ textAlign: "justify" }} className="mx-3">
             {description}
           </Card.Text>
-          <div className="d-flex  justify-content-between mx-5">
-            <FaHeart
-              className="fs-2 like"
-              style={{ color: isFavorite ? "rgb(237, 72, 72)" : "rgb(207, 204, 204)" }}
-              onClick={handleLike}
-            />
             <Button className="card-btn" onClick={()=> navigate(`/art-culture/${id}`)}>Read More</Button>
-          </div>
         </Card.Body>
       </Card>
     </div>

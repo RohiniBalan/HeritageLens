@@ -10,11 +10,12 @@ import ArtDetail from "./component/artDetail";
 import ArchitectureDetail from "./component/architectureDetail";
 import FestivalDetail from "./component/festivalDetail";
 import HandicraftDetail from "./component/handicraftDetail";
+import Contact from "./component/contact";
 
 function App() {
     const darkMode = useSelector((state=> state.theme.darkMode))
   const appStyle = {
-    backgroundColor: darkMode? 'black': 'white',
+    backgroundColor: darkMode? 'rgb(58, 57, 57)': 'white',
     color: darkMode? 'white': 'black',
     transition:'all 0.3s ease'
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/architecture/:id" element={<ArchitectureDetail/>} />
         <Route path="/festival/:id" element={<FestivalDetail/>} />
         <Route path="/handicraft/:id" element={<HandicraftDetail/>}/>
+        <Route path="/contact" element={<Contact/>} />
       </Routes> 
      
     </div>

@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 
 function Category() {
   return (
-    <div className="container text-center category my-5">
-      <h1 className="mb-4 mt-2">Explore India's Heritage</h1>
-      <div className="d-flex justify-content-evenly flex-wrap">
+    <div className="container text-center category my-5" id="category-section">
+      <h1 className="mb-4 sub-title">Explore India's Heritage</h1>
+      <div className="d-flex justify-content-evenly flex-wrap my-4">
       <Card style={{ width: "17rem" }} className="category-card">
         <Card.Img variant="top" src="https://i.pinimg.com/1200x/f4/07/1f/f4071f1d1c28db441f8992bdcbc83f72.jpg" className="rounded-pill card-img" />
         <Card.Body>

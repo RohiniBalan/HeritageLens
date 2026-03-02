@@ -14,29 +14,31 @@ function ArchitectureDetail(){
     return(
         <div>
       <NavBarSection />
-      <div className="container my-5 p-5 detail">
-        <div className="d-flex ">
-        <div className="me-3">
+      <div className="container py-5 px-5 detail">
+        <div className="row justify-content-evenly align-items-center">
+        <div className="me-3 col-lg-4">
         <img
           src={architecture.image}
-          alt={architecture.name} width="550px"
+          alt={architecture.name}
           className="img-fluid rounded mb-4"
         />
         </div>
-        <div className="ms-4">
-        <h1 className="architecture-title">{architecture.name}</h1>
-        <p><b>Period</b> : {architecture.period}</p>
-        <p><b>Category</b> : {architecture.category}</p>
-        <p><b>Location</b> : {architecture.location}</p>
-        <p><b>Region</b> : {architecture.region}</p>
-        <p><b>Built By :</b> {architecture.builtBy}</p>
-        <p><b>Built In :</b> {architecture.builtIn}</p>
-
+        <div className="ms-4 col-lg-6">
+        <h1 className="sub-title pb-3">{architecture.name}</h1>
+        <p className="detail-text"><b className="h5">Period</b> : {architecture.period}</p>
+        <p className="detail-text"><b className="h5">Category</b> : {architecture.category}</p>
+        <p className="detail-text"><b className="h5">Location</b> : {architecture.location}</p>
+        <p className="detail-text"><b className="h5">Region</b> : {architecture.region}</p>
+        <p className="detail-text"><b className="h5">Built By :</b> {architecture.builtBy}</p>
+        <p className="detail-text"><b className="h5">Built In :</b> {architecture.builtIn}</p>
         </div>
         </div>
-        <p><b>Description:</b> <br />{architecture.description}</p>
+        <div className="detail-down">
+        <h4 className="section-title">Description</h4>
+        <p className="detail-text">{architecture.description}</p>
         {architecture.historicalSignificance && renderSection("Historical Significance", architecture.historicalSignificance)}
         {architecture.architecturalFeatures && renderList("Architectural Features", architecture.architecturalFeatures)}
+        </div>
       </div>
       <Footer/>
     </div>
@@ -50,7 +52,7 @@ function renderSection(title, content) {
   return (
     <div className="my-4">
       <h4 className="section-title">{title}</h4>
-      <p>{content}</p>
+      <p className="detail-text">{content}</p>
     </div>
   );
 }
@@ -58,7 +60,7 @@ function renderSection(title, content) {
 function renderList(title, items) {
   return (
     <div className="my-4">
-      <h4>{title}</h4>
+      <h4 className="section-title">{title}</h4>
       <ul>
         {items.map((item, index) => (
           <li key={index}>{item}</li>
